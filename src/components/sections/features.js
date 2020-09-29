@@ -7,41 +7,46 @@ const Features = () => (
   <Section id="features">
     <StyledContainer>
       <Subtitle>Features</Subtitle>
-      <SectionTitle>Smart money management</SectionTitle>
+      <SectionTitle>A purpose-built tool for accessibility teams</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
-          <FeatureTitle>Notifications</FeatureTitle>
+          <FeatureTitle>Manual testing</FeatureTitle>
           <FeatureText>
-            Receive budget and spending alerts based on your favorite triggers.
+            Guided testing and streamlined logging to get issues to developers
+            quickly.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Security</FeatureTitle>
+          <FeatureTitle>Automated testing</FeatureTitle>
           <FeatureText>
-            Your data is always safe with us as we use the latest security
-            protocols.
+            Integrated testing to catch issues that slip through.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Automation</FeatureTitle>
+          <FeatureTitle>Reporting</FeatureTitle>
           <FeatureText>
-            Create smart automated workflows and triggers for your money.
+            Visualize and monitor progress across pages and products from one
+            dashboard.
+          </FeatureText>
+        </FeatureItem>
+        <FeatureItem>
+          <FeatureTitle>Compliance</FeatureTitle>
+          <FeatureText>
+            Create VPATs from existing issues and easily update when fixes are
+            pushed.
+          </FeatureText>
+        </FeatureItem>
+        <FeatureItem>
+          <FeatureTitle>Compatibility</FeatureTitle>
+          <FeatureText>
+            Plays well with Jira, Github, Pivotal Tracker, and others.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
           <FeatureTitle>Aggregation</FeatureTitle>
           <FeatureText>
-            Easily link up to 5 banks to your finance account.
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Payments</FeatureTitle>
-          <FeatureText>Send money to friends and family with ease.</FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Rewards</FeatureTitle>
-          <FeatureText>
-            High interest and rewards for hitting your goals.
+            Manage all issues across products from both manual and automated
+            testing in a single location.
           </FeatureText>
         </FeatureItem>
       </FeaturesGrid>
@@ -54,7 +59,7 @@ export default Features
 const StyledContainer = styled(Container)``
 
 const SectionTitle = styled.h3`
-  color: ${props => props.theme.color.primary};
+  color: ${(props) => props.theme.color.primary};
   display: flex;
   justify-content: center;
   margin: 0 auto 40px;
@@ -63,7 +68,7 @@ const SectionTitle = styled.h3`
 
 const Subtitle = styled.h5`
   font-size: 16px;
-  color: ${props => props.theme.color.accent};
+  color: ${(props) => props.theme.color.accent};
   letter-spacing: 0px;
   margin-bottom: 12px;
   text-align: center;
@@ -76,7 +81,7 @@ const FeaturesGrid = styled.div`
   margin: 0px auto;
   grid-column-gap: 40px;
   grid-row-gap: 35px;
-  @media (max-width: ${props => props.theme.screen.sm}) {
+  @media (max-width: ${(props) => props.theme.screen.sm}) {
     grid-template-columns: 1fr;
     padding: 0 64px;
   }
@@ -90,7 +95,7 @@ const FeatureItem = styled.div`
 `
 
 const FeatureTitle = styled.h4`
-  color: ${props => props.theme.color.primary};
+  color: ${(props) => props.theme.color.primary};
   letter-spacing: 0px;
   line-height: 30px;
   margin-bottom: 10px;
