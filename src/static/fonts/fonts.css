@@ -1,48 +1,62 @@
 @font-face {
-  font-family: "Poppins Extra Bold";
-  src: url("./Poppins-ExtraBold.ttf") format("truetype");
-  /* font-weight: 800; */
+  font-family: "Poppins Bold";
+  src: url("Poppins-Bold.woff2") format("woff2"),
+    url("Poppins-Bold.woff") format("woff");
+  font-weight: bold;
   font-style: normal;
-}
-
-@font-face {
-  font-family: "Poppins Regular";
-  src: url("./Poppins-Regular.ttf") format("truetype");
-  /* font-weight: 800; */
-  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Poppins Black";
-  src: url("./Poppins-Black.ttf") format("truetype");
-  /* font-weight: 800; */
+  src: url("Poppins-Black.woff2") format("woff2"),
+    url("Poppins-Black.woff") format("woff");
+  font-weight: 900;
   font-style: normal;
-}
-
-@font-face {
-  font-family: "Poppins Bold";
-  src: url("./Poppins-Bold.ttf") format("truetype");
-  /* font-weight: 800; */
-  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Poppins Light";
-  src: url("./Poppins-Light.ttf") format("truetype");
-  /* font-weight: 800; */
+  src: url("Poppins-Light.woff2") format("woff2"),
+    url("Poppins-Light.woff") format("woff");
+  font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: "Poppins Medium";
-  src: url("./Poppins-Medium.ttf") format("truetype");
-  /* font-weight: 800; */
+  font-family: "Poppins Extra Bold";
+  src: url("Poppins-ExtraBold.woff2") format("woff2"),
+    url("Poppins-ExtraBold.woff") format("woff");
+  font-weight: 800;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: "Poppins Semi Bold";
-  src: url("./Poppins-SemiBold.ttf") format("truetype");
-  /* font-weight: 800; */
+  font-family: "Poppins";
+  src: url("Poppins-Medium.woff2") format("woff2"),
+    url("Poppins-Medium.woff") format("woff");
+  font-weight: 500;
   font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins Semibold";
+  src: url("Poppins-SemiBold.woff2") format("woff2"),
+    url("Poppins-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins Regular";
+  src: url("Poppins-Regular.woff2") format("woff2"),
+    url("Poppins-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
