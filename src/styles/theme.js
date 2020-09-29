@@ -5,7 +5,7 @@ const theme = {
     primary: `'Poppins Regular'`,
     secondary: `'Poppins Medium'`,
     light: `'Poppins Light'`,
-    normal: `'Poppins Normal'`,
+    normal: `'Poppins Regular'`,
     medium: `'Poppins Medium'`,
     semibold: `'Poppins Semibold'`,
     bold: `'Poppins Bold'`,

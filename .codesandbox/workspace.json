@@ -7,17 +7,9 @@
         },
         {
           "id": "codesandbox.browser",
-          "closeable": true,
           "options": {
-            "url": "/___graphql",
-            "title": "GraphiQL"
-          }
-        },
-        {
-          "id": "codesandbox.browser",
-          "options": {
-            "port": 32907,
-            "url": "https://3csx7-32907.sse.codesandbox.io"
+            "port": 8000,
+            "url": "https://kkimr-8000.sse.codesandbox.io"
           },
           "closeable": true
         },
@@ -25,15 +17,23 @@
           "id": "codesandbox.browser",
           "options": {
             "port": 50400,
-            "url": "https://3csx7-50400.sse.codesandbox.io"
+            "url": "https://kkimr-50400.sse.codesandbox.io"
           },
           "closeable": true
         },
         {
           "id": "codesandbox.browser",
           "options": {
-            "port": 44747,
-            "url": "https://3csx7-44747.sse.codesandbox.io"
+            "port": 9229,
+            "url": "https://kkimr-9229.sse.codesandbox.io"
+          },
+          "closeable": true
+        },
+        {
+          "id": "codesandbox.browser",
+          "options": {
+            "port": 40243,
+            "url": "https://kkimr-40243.sse.codesandbox.io"
           },
           "closeable": true
         }
