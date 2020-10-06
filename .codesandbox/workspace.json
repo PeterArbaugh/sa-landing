@@ -8,32 +8,8 @@
         {
           "id": "codesandbox.browser",
           "options": {
-            "port": 8000,
-            "url": "https://kkimr-8000.sse.codesandbox.io"
-          },
-          "closeable": true
-        },
-        {
-          "id": "codesandbox.browser",
-          "options": {
-            "port": 50400,
-            "url": "https://kkimr-50400.sse.codesandbox.io"
-          },
-          "closeable": true
-        },
-        {
-          "id": "codesandbox.browser",
-          "options": {
-            "port": 9229,
-            "url": "https://kkimr-9229.sse.codesandbox.io"
-          },
-          "closeable": true
-        },
-        {
-          "id": "codesandbox.browser",
-          "options": {
-            "port": 40243,
-            "url": "https://kkimr-40243.sse.codesandbox.io"
+            "port": 33001,
+            "url": "https://kkimr-33001.sse.codesandbox.io"
           },
           "closeable": true
         }
