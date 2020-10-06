@@ -12,6 +12,14 @@
             "url": "https://kkimr-33001.sse.codesandbox.io"
           },
           "closeable": true
+        },
+        {
+          "id": "codesandbox.browser",
+          "options": {
+            "port": 8000,
+            "url": "https://kkimr-8000.sse.codesandbox.io"
+          },
+          "closeable": true
         }
       ]
     },
